@@ -1,0 +1,22 @@
+{
+  "name": "filo_progressbar",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/main.jsx",
+    "build": "bun build src/main.jsx --outdir dist --splitting",
+    "lint": "eslint src --ext .jsx,.js",
+    "preview": "bunx serve dist"
+  },
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.6.0"
+  }
+}
